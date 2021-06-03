@@ -69,6 +69,7 @@ namespace OGKG_Lab_CSharp
                     inside2.Add(i);
             }
             inside2.AddRange(inside_vertices);
+            if (checkBox1.Checked)
             for (int i = 0; i < voronoi.CountEdges; i++)
             {
                 if (!voronoi.GetEdge(i).IsFinite)
@@ -240,6 +241,11 @@ namespace OGKG_Lab_CSharp
             Fig_Comp = true;
             for(int i=0;i<points.Count;i++)
                 G.DrawLine(Pens.Black, points[i], points[(i+1)%points.Count]);
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
