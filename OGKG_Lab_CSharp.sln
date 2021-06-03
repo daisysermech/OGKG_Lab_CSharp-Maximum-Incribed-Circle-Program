@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGKG_Lab_CSharp", "OGKG_Lab_CSharp\OGKG_Lab_CSharp.csproj", "{92FDB1EB-41AC-4948-AE9B-1C2B4CA86C4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0461538-372B-45AE-B4D1-131D6FD156EB} = {B0461538-372B-45AE-B4D1-131D6FD156EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Boost_Wrapper", "CS_Boost_Wrapper\CS_Boost_Wrapper.csproj", "{B0461538-372B-45AE-B4D1-131D6FD156EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FDB1EB-41AC-4948-AE9B-1C2B4CA86C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FDB1EB-41AC-4948-AE9B-1C2B4CA86C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FDB1EB-41AC-4948-AE9B-1C2B4CA86C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FDB1EB-41AC-4948-AE9B-1C2B4CA86C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0461538-372B-45AE-B4D1-131D6FD156EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0461538-372B-45AE-B4D1-131D6FD156EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0461538-372B-45AE-B4D1-131D6FD156EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0461538-372B-45AE-B4D1-131D6FD156EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBB64336-A90F-4992-99DE-FF28FFB24AF5}
+	EndGlobalSection
+EndGlobal
